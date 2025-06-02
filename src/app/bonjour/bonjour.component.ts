@@ -1,5 +1,4 @@
 import { Component } from '@angular/core';
-import { BonjourService } from '../bonjour.service'; // ← importe ton service
 
 @Component({
   selector: 'app-bonjour',
@@ -8,9 +7,4 @@ import { BonjourService } from '../bonjour.service'; // ← importe ton service
   styleUrls: ['./bonjour.component.scss']
 })
 export class BonjourComponent {
-  message: string = '';
-
-  constructor(private bonjourService: BonjourService) {
-    this.message = this.bonjourService.getMessage(); // ← récupère le message du service
-  }
 }
