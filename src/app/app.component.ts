@@ -1,5 +1,6 @@
 import { Component } from '@angular/core';
 import { BonjourComponent } from './bonjour/bonjour.component';
+import { HeaderComponent } from './header/header.component';
 
 @Component({
   selector: 'app-root',
