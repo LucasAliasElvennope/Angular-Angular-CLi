@@ -7,3 +7,5 @@ import { Component } from '@angular/core';
   styleUrls: ['./bonjour.component.scss']
 })
 export class BonjourComponent { }
+
+
